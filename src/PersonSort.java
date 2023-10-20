@@ -2,10 +2,10 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class SortPerson {
+public class PersonSort {
     private List<Person> personList;
     
-    public SortPerson(){
+    public PersonSort(){
         this.personList = new ArrayList<>();
     }
 
@@ -26,7 +26,7 @@ public class SortPerson {
     }
 
     public static void main(String[] args) {
-        SortPerson sortPerson = new SortPerson();
+        PersonSort sortPerson = new PersonSort();
         sortPerson.addPerson("Name 1", 20, 1.60);
         sortPerson.addPerson("Name 2", 25, 1.80);
         sortPerson.addPerson("Name 3", 40, 1.56);

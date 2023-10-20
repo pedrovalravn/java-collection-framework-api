@@ -25,10 +25,10 @@ class Book {
     }
 }
 
-public class BooksCatalogue {
+public class BookCatalogue {
     private List<Book> bookList;
 
-    public BooksCatalogue() {
+    public BookCatalogue() {
         this.bookList = new ArrayList<>();
     }
 
@@ -67,7 +67,7 @@ public class BooksCatalogue {
     }
 
     public static void main(String[] args) {
-        BooksCatalogue booksCatalogue = new BooksCatalogue();
+        BookCatalogue booksCatalogue = new BookCatalogue();
 
         booksCatalogue.addBook("Book 1", "Author 1", 2000);
         booksCatalogue.addBook("Book 1", "Author 2", 2010);
